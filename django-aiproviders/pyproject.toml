@@ -57,6 +57,9 @@ where = ["src"]
 include = ["django_aiproviders*"]
 exclude = ["tests*"]
 
+[tool.setuptools.package-data]
+django_aiproviders = ["templates/**/*"]
+
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "tests.settings"
 testpaths = ["tests"]
