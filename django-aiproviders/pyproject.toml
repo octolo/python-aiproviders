@@ -58,7 +58,7 @@ include = ["django_aiproviders*"]
 exclude = ["tests*"]
 
 [tool.setuptools.package-data]
-django_aiproviders = ["templates/**/*"]
+django_aiproviders = ["templates/**/*", "static/**/*"]
 
 [tool.pytest.ini_options]
 DJANGO_SETTINGS_MODULE = "tests.settings"
